@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/mavatar.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,27 +19,27 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            A passionate Full stack web developer  love to build Web applications
+            
               <br />
-              <br />I am fluent in classics like
+              {/* <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
-              </i>
+                <b className="purple"> javascript/ReactJs / NodeJs / MongoDb and someother cool libraries and frameworks. 🤷‍♂️</b>
+              </i> */}
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
+                learn new web technology.{" "}
+                {/* <b className="purple">
                   Deep Learning and Natural Launguage Processing.
-                </b>
+                </b> */}
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+               I had also apply my passion for developing products
+              with <b className="purple">Node.js</b> and MongoDb
               <i>
                 <b className="purple">
                   {" "}
@@ -48,26 +48,27 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and Express.js</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} style={{width:"250px",height:"300px",borderRadius:"55%"}} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
+                social media
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/manjeetsingh100001"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +76,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
@@ -84,10 +85,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/manjeetsingh29"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +98,8 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+               
+                  href=" https://www.instagram.com/manjeet__nandal/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
